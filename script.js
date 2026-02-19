@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
             // Create mailto link with form data
             const subject = encodeURIComponent('Contact from psarcho website');
             const body = encodeURIComponent(`Email: ${email}\n\nMessage:\n${message}`);
-            const mailtoLink = `mailto:info@psarcho.com?subject=${subject}&body=${body}`;
+            const mailtoLink = `mailto:apresyan.architect@gmail.com?subject=${subject}&body=${body}`;
             
             // Open email client
             window.location.href = mailtoLink;
